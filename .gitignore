@@ -1,0 +1,23 @@
+# secrets
+.env
+backend/.env
+serviceAccountKey.json
+*.p8
+
+# python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+backend/data/
+backend/.llm_cache.sqlite
+backend/.embed_cache.sqlite
+backend/.planner_sessions.sqlite
+
+# macOS / Xcode
+.DS_Store
+xcuserdata/
+DerivedData/
+*.xcuserstate
+build/

@@ -1,0 +1,11 @@
+.env
+.llm_cache.sqlite
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+serviceAccountKey.json
+.embed_cache.sqlite
+.planner_sessions.sqlite
+data/
+venv/
